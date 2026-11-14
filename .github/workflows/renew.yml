@@ -3,7 +3,7 @@ name: Katabump Auto Renew
 
 on:
   schedule:
-    - cron: '30 22 */5 * *'  # 每月 1、6、11、16、21、26、31 日 UTC 22:30（北京时间次日 06:30）
+    - cron: '30 22 */1 * *'  # 每月 1、6、11、16、21、26、31 日 UTC 22:30（北京时间次日 06:30）
   workflow_dispatch:
 
 # 防止同一个工作流并发运行
